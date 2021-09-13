@@ -1,0 +1,15 @@
+.products{
+    display: flex;
+    /* background-color: aqua; */
+}
+.Page{
+    /* display: flex; */
+    width: 100%;
+}
+.Form{
+    /* display: flex; */
+    width: 35%;
+    height: auto;
+    margin-top: 0rem;
+    
+}

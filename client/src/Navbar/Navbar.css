@@ -1,0 +1,14 @@
+.n_hed{
+    background-color: rgb(163, 192, 253);
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.n_hed h2{
+    left: 0rem;
+    margin-left: 3rem;
+}
+.n_hed s{
+    margin-right: 1rem;
+}
+

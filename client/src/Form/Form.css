@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .header{
+      background-color: rgb(253, 250, 250);
+      padding: 0rem;
+       border-bottom:  solid 0.1rem rgb(202, 198, 198);
+  }
+  .header button{
+      justify-items: center;
+      background:transparent;
+      border: none;
+
+  }
+  .product{
+      /* display: flex; */
+      width: 100%;
+      padding: 0.998rem;
+  }
+  .label
+  {
+      /* padding-top: 1rem; */
+      /* background-color: seagreen; */
+  }
+  .product h3{
+      padding: 0.5rem;
+  }
+ .pName{
+padding-bottom: 2rem;
+padding-top: 1rem;
+margin-bottom: 1rem;
+
+border-bottom:  solid 0.1rem rgb(202, 198, 198);
+ }
+ .pName input{
+width: 100%;
+padding: 1rem;
+
+ }
+
+
+
+  .fileInput{
+      background-color: seagreen;
+      padding: 20px;
+  }
+  .fileInputs {
+      /* background-color: sienna; */
+padding: 1rem;
+height: 1rem;
+  }
+  .fileInput input{
+      padding: 1rem;
+  }
+  .file-upload-wrapper {
+background-color: rgb(175, 231, 102);
+    height: 4rem;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: height;
+    border-radius: 1rem;
+  }
+
+
+  .file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: - 20px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  .file-upload-wrapper h{
+
+padding: 1rem;
+display: flex;
+
+
+
+  }
+  .pName1{
+    /* /background-color: #04AA6D; */
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    
+
+   
+  }
+  .pName1 input{
+    width: 100%;
+    padding: 1rem;
+    
+     }
+.textarea{
+    height: 10rem;
+    width: 100%;
+    border-radius: 4px;
+padding: 1rem;
+    cursor: pointer;  
+}
+.s_btn{
+    background-color: rgb(175, 231, 102);
+    height: 2rem;
+    display: flex;
+padding: 0.5rem;
+    width: 100%;
+    left: 0rem;
+    height: height;
+    border-radius: 1rem; 
+}

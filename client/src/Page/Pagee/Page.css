@@ -1,0 +1,66 @@
+.head{
+background-color: rgb(198, 159, 230);
+
+/* grid-template-columns: repeat( auto-fit, minmax(2.5rem, 1fr) ); */
+/* background-color: rgb(235, 164, 235); */
+justify-content: center;
+padding: 0.01rem;
+margin-top: 1rem;
+border-radius: 2rem;
+
+position: relative;
+width:22rem; 
+ /* padding: 1rem; */
+box-shadow: 2rem rgb(212, 0, 255);
+}
+.head:hover{
+   
+    background-color: rgb(214, 244, 248);
+}
+.h-de{
+    display: flex;
+    /* padding: 1rem; */
+}
+
+.h-de-2{
+    /* padding: 1rem; */
+    display: flex;
+    max-width: 20rem;
+}
+.image{
+/* background-color: greenyellow; */
+border-radius: 1rem;
+width: 20rem;
+min-width: 20rem;
+height: 21rem;
+
+margin: 1rem;
+justify-items: center;
+}
+/* .image:hover{
+background-color: rgb(196, 190, 182);
+} */
+.btn{
+    border: none;
+    background-color: transparent;
+}
+.btn:hover{
+    color: rgb(183, 0, 255);
+    cursor: pointer;
+}
+.btn:focus{
+    background-color: rgb(243, 132, 237);
+    border-radius: 1rem;
+}
+.image img{
+    /* display: flex; */
+max-width: 20rem;
+min-height: 19rem;
+border-radius: 2rem;
+height: 10rem;
+justify-items: center;
+}
+.image img:hover{
+    background-color: rosybrown;
+    box-shadow: 0 0.9rem 2rem 0rem rgba(149, 164, 250, 0.4);
+}

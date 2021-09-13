@@ -1,0 +1,13 @@
+.product{
+    display: grid;
+    grid-gap: 2rem;
+    /* grid-template-columns:  auto auto auto;
+     */
+     grid-template-columns: repeat( auto-fit, minmax(20rem, 2fr) );
+  
+    /* background-color: #e4eaee; */
+    justify-items: center;
+    padding: 2rem;
+    margin: 1rem;
+
+}
